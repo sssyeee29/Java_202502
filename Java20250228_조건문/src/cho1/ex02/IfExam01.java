@@ -25,7 +25,7 @@ public class IfExam01 {
 		}
 		{
 		
-		//if(kor < 70) { // 18번 조건에 맞지 않아서 실행하지않고 그냥 빠져나온 후 여기에 다시 입력해서 실행
+		//if(kor < 70) { // 16번 조건에 맞지 않아서 실행하지않고 그냥 빠져나온 후 여기에 다시 입력해서 실행
 			//System.out.println("불합격");
 		
 		System.out.println("종료");
