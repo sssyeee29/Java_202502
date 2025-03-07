@@ -11,7 +11,7 @@ public class PersonMain {
 		
 		Person person = new Person();
 		
-		person.name = "이연수";
+		person.name = "홍길동";
 		person.age = 25;
 		person.phone = "010-2222-3333";
 		

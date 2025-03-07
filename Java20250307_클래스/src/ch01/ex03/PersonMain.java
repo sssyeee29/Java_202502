@@ -10,7 +10,7 @@ public class PersonMain {
 		Person person 
 		= new Person("홍길은", 50, "010-2222-3333"); //person에 있는 15줄에 전달돼서 출력되는것
 		
-		person.age = 20;
+		person.age = 50;
 		
 		person.나이출력();
 		person.이름출력();
