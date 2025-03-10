@@ -19,7 +19,8 @@ public class 복습02 {
 		//삼항연산자(조건연산자)
 		// (조건판단) ? 참 : 거짓;
 		String msg = (number>0) ? "양수" : "음수" ;
-		System.out.println(msg);
+		System.out.println(msg);	
+		
 		
 	}
 
