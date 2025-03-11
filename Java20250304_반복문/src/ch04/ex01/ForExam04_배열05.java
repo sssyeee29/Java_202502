@@ -33,10 +33,10 @@ public class ForExam04_배열05 {
 		
 		int max ;
 		int min ;
-		max = student[0];
+		max = student[0];	
 		min = student[0];
-		for(int i=0; i<7; i++) {
-			if(max < student[i])
+		for(int i=0; i<7; i++) { //0~6
+			if(max < student[i]) // 순서대로 비교하면서 그때그때 맥스값이랑 다음칸 둘이 비교해서 칸에 있는게 더 크면 자리를 바꿔줌(큰게 뒤로가는식)
 				max = student[i];
 
 			if(min > student [i]) // 0보다 작은 수가 없어서 0이나옴 
