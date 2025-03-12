@@ -29,7 +29,7 @@ class B extends A{
 	
 	B() {}
 	B(String name, int age, String id) {
-		super(name, age); // super도 맨 위에 적어줘야함
+		super(name, age); // super 맨 위에 적어줘야함
 		this.id = id;
 	}
 }
