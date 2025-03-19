@@ -3,10 +3,10 @@ package ch01.ex02;
 public class A {
 	private String name; 
 	
+	A() {}
 	A(String name) {
 		this.name = name;
 	}
-	A() {}
 	void test() { 
 		System.out.println("A class");
 	}

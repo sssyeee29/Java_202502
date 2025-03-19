@@ -3,10 +3,10 @@ package ch01.ex01;
 public class A {
 	private String name; 
 	
+	A() {}
 	A(String name) {
 		this.name = name;
 	}
-	A() {}
 	void funcA() {
 		System.out.println("funcA()");
 	}
