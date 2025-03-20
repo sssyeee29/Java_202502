@@ -1,8 +1,5 @@
 package ex02;
 
-import lombok.Data;
-
-@Data
 
 class Student {
 	private int no;
@@ -13,7 +10,7 @@ class Student {
 		this.name = name;
 	}
 	
-	
+
 	
 	@Override
 	public boolean equals(Object obj) {

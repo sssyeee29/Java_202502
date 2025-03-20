@@ -14,21 +14,22 @@ package ex03;
 
 import java.util.Arrays;
 
+
 public class Exam01 {
 
 	public static void main(String[] args) {
-		
+
+
 		int [] numbers = {1,2,3,4,5,6,7,8,9,10};
 		
 		int [] arr = is_even(numbers);
 		
 //		for(int i : arr)
 //			System.out.print(i + " ");
-		
+	
 		System.out.println(Arrays.toString(arr));
 		System.out.println(Arrays.toString(numbers));
 	}
-	
 	static int[] is_even(int[] n) {
 		int count = 0;
 		
