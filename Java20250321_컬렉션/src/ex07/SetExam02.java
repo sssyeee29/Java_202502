@@ -35,7 +35,7 @@ public class SetExam02 {
 
 	public static void main(String[] args) {
 		
-		Set<Num> set = new HashSet<Num>();
+		Set<Num> set = new HashSet<Num>(); // 순번이 없어서 가능 
 		
 		set.add(new Num(1234));
 		set.add(new Num(1357));

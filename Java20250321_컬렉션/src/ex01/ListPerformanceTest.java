@@ -11,8 +11,8 @@ public class ListPerformanceTest {
 	        int middleIndex = dataSize / 2;
 
 	        // 리스트 생성 및 데이터 초기화
-	        List<Integer> arrayList = new ArrayList<>();
-	        List<Integer> linkedList = new LinkedList<>();
+	        List<Integer> arrayList = new ArrayList<>(); 
+	        List<Integer> linkedList = new LinkedList<>(); //추가, 삭제가 빠름// 단점 : 순차적으로 접근해서 검색은 느리지만
 	        
 	        for (int i = 0; i < dataSize; i++) {
 	            arrayList.add(i);

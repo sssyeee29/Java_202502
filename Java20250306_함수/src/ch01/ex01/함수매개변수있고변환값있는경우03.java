@@ -15,6 +15,7 @@ package ch01.ex01;
 public class 함수매개변수있고변환값있는경우03 {
 
 	public static void main(String[] args) {
+		
 		int result = sum(10, 20);// 이 코드 실행하면 결과는
 		// int result = 30;      --> 이렇게 나온다.
 		System.out.println(result);

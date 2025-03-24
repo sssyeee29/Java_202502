@@ -23,13 +23,18 @@ public class ListExam01 {
 		System.out.println();
 		System.out.println("----------------------------");
 		
-		Iterator<String> itr = list.iterator(); // 코드 최소화 하기위해 
-		while(itr.hasNext()) {
+		//반복자 
+		Iterator<String> itr = list.iterator(); // 코드 최소화 하기위해 // 반환타입 : Iterator
+		
+		while(itr.hasNext()) { //가져올 값이 있냐고 물어보고 가져올거 있으면 true가 반환되니까 가서 값을 가져옴 
 			System.out.println(itr.next());
 		}
 		System.out.println();
 		
-		
+		itr = list.iterator(); // 다음거 구할때도 한 번 더 써줘야함 // why?
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 		list.remove(0);
 		System.out.println(list.get(0));
 		System.out.println(list.get(1));

@@ -36,8 +36,8 @@ public class SetExam02 {
 
 	public static void main(String[] args) {
 		
-		Set<String> set = new TreeSet<>(); //무조건 정렬해야함 
-		// 문자는 아스키코드표를 기준으로 정렬된다. (알파벳순으로 정리함)
+		Set<String> set = new TreeSet<>(); //무조건 정렬해야함 - 반드시 순번이 정해져있어야함 
+		// 문자는 아스키코드표를 기준으로 정렬된다. (알파벳순으로 정리함. 숫자->대문자->소문자) 
 		set.add("Toy");
 		set.add("toy");
 		set.add("Box");
@@ -46,7 +46,7 @@ public class SetExam02 {
 		set.add("안녕");
 		set.add("Toy");
 		
-		//정렬 조건이 없기 때문에 실행불가 
+		//정렬 조건이 없기 때문에 실행불가 why? 슌서를 정할 규칙자체가 없어서 
 //		set.add(new Num(1234));
 //		set.add(new Num(1357));
 //		set.add(new Num(1395));

@@ -8,7 +8,7 @@ public class LinkedListExam01 {
 
 	public static void main(String[] args) {
 		
-		List<String> list = new ArrayList<>();
+		List<String> list = new ArrayList<>();// 앞에 List로 쓰면 상위클래스이기 때문에 수정에 용이, ArrayList를 LinkedList이걸로 자유롭게 바꾸기 가능 
 		
 		list.add("Toy");
 		list.add("Box");

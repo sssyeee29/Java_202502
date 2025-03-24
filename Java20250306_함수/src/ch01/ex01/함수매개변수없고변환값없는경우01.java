@@ -15,7 +15,7 @@ package ch01.ex01;
 public class 함수매개변수없고변환값없는경우01 {
 
 	public static void main(String[] args) {
-		sum(); // 함수 호출 - 진입저(반드시 있어야함) // 이걸입력하면 아래 있는 24번 sum으로 가서 실행 후 
+		sum(); // 함수 호출 - 진입저(반드시 있어야함) // 이걸입력하면 아래 있는 25번 sum으로 가서 실행 후 
 											// 밑에있는 중괄호 만나면 원래 자기 문장으로 돌아가 이어서 실행
 		System.out.println("프로그램 종료!!");
 		
