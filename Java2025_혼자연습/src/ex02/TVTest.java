@@ -4,28 +4,28 @@ public class TVTest {
 
 	public static void main(String[] args) {
 
-		SaleTV s1 = new SaleTV();
-		RentalTV r1 = new RentalTV();
+		//SaleTV, RentalTV 클래스의 객체를 각각 생성한다.
+		TV saleTV = new SaleTV("SALETV-1", 40, 1, 300000);
+		TV RentalTV = new RentalTV("RENTALTV-1", 42, 1, 100000);
 		
-		printAllTV(s1);
-		printAllTV(r1);
+		//SaleTV 객체는 채널을 두 개 높인다. 
+		saleTV.channelUp();
+		saleTV.channelUp();
 		
-		s1.channelUp();
-		r1.channelUp();
+		//RentalTV 객체는 채널을 세 개 내린다. 
+		RentalTV.chnnelDown();
+		RentalTV.chnnelDown();
+		RentalTV.chnnelDown();
 		
-		
-		
-		s1.chnnerlDown();
-		r1.chnnerlDown();
-		
-	}
-
-	private static void printAllTV(TV tv) {
-		System.out.println();
+		printAllTV(saleTV);
+		printAllTV(RentalTV);
+				
 	}
 	
-	private static void printRentalTV(Rentable tv) {
-		System.out.println();
+	static void printAllTV(TV tv) {
+		System.out.println(tv.toString()); //object에 있어서 사용가능 
+		tv.play();
+		
 	}
 	
 	
