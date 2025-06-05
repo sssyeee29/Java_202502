@@ -22,7 +22,8 @@ class Network{
 			this.msg = msg;
 		}
 		
-		String getMsg() { return msg;}
+		String getMsg() { 
+			return msg;}
 	}
 }
 
